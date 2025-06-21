@@ -6,3 +6,6 @@ const characters = [
 ];
 
 const alive = characters.filter(item => item.health > 0);
+
+// solves eslint "no-unused-var" error
+console.log(alive)
